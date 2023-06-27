@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: riltzstore.github.io
+      url: https://riltzstore.github.io/
     runs-on: ubuntu-latest
     needs: build
     steps:
